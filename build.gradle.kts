@@ -79,3 +79,7 @@ tasks.register<ExecOperationsTask>("runAllTest") {
         }
     }
 }
+
+kotlin {
+    jvmToolchain(17)
+}
