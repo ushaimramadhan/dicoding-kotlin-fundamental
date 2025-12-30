@@ -10,5 +10,5 @@ fun calculate(valueA: Int, valueB: Int, valueC: Int?): Int {
 // TODO 2
 fun result(result: Int): String {
     result.toString()
-    return "result is $result"
+    return "Result is $result"
 }

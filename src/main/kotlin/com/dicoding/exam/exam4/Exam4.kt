@@ -11,6 +11,6 @@ open class Car(val brand: String, val year: Int) {
 // TODO
 class ElectricCar(pBrand: String, pYear: Int, val batteryCapacity: Int) : Car(pBrand, pYear) {
     override fun getCarInfo(): String {
-        return "$brand keluaran tahun $year dengan kapasitas baterai $batteryCapacity kwh"
+        return "$brand keluaran tahun $year dengan kapasitas baterai $batteryCapacity kWh"
     }
 }
